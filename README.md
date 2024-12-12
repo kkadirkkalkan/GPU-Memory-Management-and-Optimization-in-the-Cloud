@@ -38,26 +38,3 @@ The growing demands of Key-Value (KV) cache management in LLMs due to increasing
 
 ---
 
-## Structure
-
-- **Introduction**: Overview of GPU memory challenges in LLM inference.
-- **PagedAttention and vLLM**:
-  - Memory management techniques.
-  - Scheduling, preemption, and distributed execution methods.
-- **Performance**: 
-  - Experimental results comparing vLLM to state-of-the-art systems.
-- **Discussion**:
-  - Current limitations and future directions for GPU memory optimization.
-
----
-
-## Setup
-
-### Prerequisites
-
-- NVIDIA GPUs (A100 or similar) for testing.
-- Python 3.9+.
-- CUDA and cuDNN installed.
-- Required libraries:
-  ```bash
-  pip install torch transformers
